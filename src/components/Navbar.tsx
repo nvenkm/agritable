@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation, useSearchParams } from "react-router-dom";
 import "./Navbar.css";
 const Navbar = () => {
+  //for link highlight
   const currentRoute = useLocation();
 
   console.log(currentRoute.pathname);

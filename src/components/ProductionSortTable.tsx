@@ -13,8 +13,10 @@ const ProductionSortTable = () => {
 
   const maxMinCropData: maxMinCropDataInterface[] = [];
 
+  //group according to years
   const uniqueYears = Array.from(new Set(data.map((item) => item.Year)));
 
+  //populate the maxMinCropData
   uniqueYears.map((element) => {
     maxMinCropData.push({
       Year: element,

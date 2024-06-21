@@ -1,8 +1,11 @@
 import data from "../data/data.json";
 
 export function findMaxProducedCrop(year: string): string {
+  //filter data according to year
   const filteredData = data.filter((item) => item.Year === year);
   let maxCrop = filteredData[0];
+
+  //find the max produced crop
   for (let i = 0; i < filteredData.length; i++) {
     if (
       filteredData[i]["Crop Production (UOM:t(Tonnes))"] >
@@ -16,8 +19,11 @@ export function findMaxProducedCrop(year: string): string {
 }
 
 export function findMinProducedCrop(year: string): string {
+  //filter data according to year
   const filteredData = data.filter((item) => item.Year === year);
   let minCrop = filteredData[0];
+
+  //find the min produced crop
   for (let i = 0; i < filteredData.length; i++) {
     if (
       filteredData[i]["Crop Production (UOM:t(Tonnes))"] <
@@ -39,8 +45,11 @@ export function findAverage(
 ): number {
   let total = 0;
   let count = 0;
+
+  //filter data according to cropName
   const filteredData = data.filter((crop) => crop["Crop Name"] === cropName);
 
+  //get total and count
   for (let i = 0; i < filteredData.length; i++) {
     const yieldValue = filteredData[i][field];
 
@@ -50,6 +59,7 @@ export function findAverage(
     }
   }
 
+  //return average
   const average = count > 0 ? total / count : 0;
   return average;
 }

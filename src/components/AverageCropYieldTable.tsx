@@ -13,10 +13,12 @@ const AverageCropYieldTable = () => {
 
   const averageCropData: AverageDataInterface[] = [];
 
+  //Group the crops
   const uniqueCrops = Array.from(
     new Set(data.map((item) => item["Crop Name"]))
   );
 
+  //populate the averageCropData
   uniqueCrops.map((element) => {
     averageCropData.push({
       "Crop Name": element,
