@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/agritable/static/css/main.67e36b2a.css",
+    "main.js": "/agritable/static/js/main.e05fc530.js",
+    "static/js/496.461dfe5c.chunk.js": "/agritable/static/js/496.461dfe5c.chunk.js",
+    "index.html": "/agritable/index.html",
+    "main.67e36b2a.css.map": "/agritable/static/css/main.67e36b2a.css.map",
+    "main.e05fc530.js.map": "/agritable/static/js/main.e05fc530.js.map",
+    "496.461dfe5c.chunk.js.map": "/agritable/static/js/496.461dfe5c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67e36b2a.css",
+    "static/js/main.e05fc530.js"
+  ]
+}
