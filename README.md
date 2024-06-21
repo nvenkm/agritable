@@ -1,3 +1,7 @@
-# Mantine create-react-app template
+## Table 1
 
-This template is archived. It is not recommeded to use create-react-app. Use [Vite](https://mantine.dev/guides/vite/) instead.
+![App Screenshot](https://raw.githubusercontent.com/nvenkm/agritable/main/screenshots/table1.png)
+
+## Table 2
+
+![App Screenshot](https://raw.githubusercontent.com/nvenkm/agritable/main/screenshots/table2.png)
